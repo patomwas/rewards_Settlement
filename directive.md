@@ -42,11 +42,15 @@ Use only the fictional local rewards service in this repository. Do not connect 
 6. Open the HTML report with `npm run test:report`.
 
 ## Results and handoff appendix
-- Repository URL: **Add your public or reviewer-accessible repository URL**
-- Faulty reproduction evidence: **Add link to terminal capture or CI run**
-- Passing regression evidence: **Add link to terminal capture or CI run**
-- Playwright report: **Add accessible report link or attach exported report**
-- Loom video: **Add accessible Loom URL**
+- Repository URL: https://github.com/patomwas/rewards_Settlement
+- Faulty reproduction evidence: C:\Users\PC\Downloads\rewards-settlement-qa\rewards-settlement-qa\evidence
+
+- Passing regression evidence: C:\Users\PC\Downloads\rewards-settlement-qa\rewards-settlement-qa\evidence
+
+- Playwright report: C:\Users\PC\Downloads\rewards-settlement-qa\rewards-settlement-qa\evidence
+
+- Loom video: https://www.loom.com/share/5fd8595a401e4f56ba6c9704f4ffdfc5
+
 - Reviewer handoff: Start with `README.md`, then review `intent.md`, `reports/defect-report.md`, test source, execution results and release-readiness checklist.
 
 ## Final release position
