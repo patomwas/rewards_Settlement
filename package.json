@@ -1,0 +1,18 @@
+{
+  "name": "rewards-settlement-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA assessment: rewards settlement and payout idempotency regression suite",
+  "scripts": {
+  "test": "playwright test tests/settlement.spec.ts",
+  "test:faulty": "playwright test tests/faulty-reproduction.spec.ts",
+  "test:all": "playwright test",
+  "test:headed": "playwright test tests/settlement.spec.ts --headed",
+  "test:report": "playwright show-report"
+ },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.0"
+  }
+}
